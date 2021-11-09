@@ -6,7 +6,7 @@ const addText = (event) => {
         inputData.classList.add("valid")
             inputData.classList.remove("invalid")
     } else {
-        inputData.classList.add("valid")
+        inputData.classList.remove("valid")
             inputData.classList.add("invalid")
     }
 
